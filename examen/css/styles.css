@@ -1,0 +1,71 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #5DADE2;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** color de arriba que es como verde**/
+#header-nav {
+  background-color: #17A589 ;
+  border-radius: 0;
+  border: 0;
+}
+/**Coloco el logo y le doy altura, anchura**/
+#logo-img {
+   background: url('../imagenes/imagen.png') no-repeat;
+  width: 225px;
+  height: 225px;
+  margin: 10px 15px 10px 0;
+  
+  
+}
+
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold; 
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { 
+  text-decoration: none;
+}
+
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { 
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { 
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+#collapsable-nav ul{
+   list-style-type: none;
+   text-align: center;
+}
+#collapsable-nav li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#collapsable-nav li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#collapsable-nav li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
